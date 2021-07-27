@@ -1,1 +1,145 @@
-h1 {color:blue;}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+body
+{
+font-family: 'Raleway', sans-serif;
+width: 100%;
+}
+
+#corps
+{
+margin-left: 3%;
+margin-right: 3%;
+color: black;
+}
+
+h1
+{
+font-size: 19.3px;
+font-weight: bold;
+}
+
+
+.haut-page
+{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.block1
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex-direction: column;
+}
+
+nav ul
+{
+display: flex;
+list-style: none;
+margin-right: 10px;
+}
+
+nav a
+{
+text-decoration: none;
+padding-top: 33px;
+color: black;
+}
+
+.sinscrire a
+{
+color: #0065FC;
+font-weight: bold;
+margin-left: 30px;
+font-size: 14px ;
+}
+
+nav li
+{
+font-size: 14px;
+margin-right: 19px;
+padding-left: 10%;
+}
+
+nav a:hover
+{
+border-top: #0065FC 2px solid;
+color:#0065FC;
+}
+
+.menu-haut
+{
+display: flex;
+margin-right: 30px;
+}
+
+.Sous-titre
+{
+	font-size: 14px;
+	margin-top: 0.2%;
+}
+
+.h1
+{
+	margin-top: 2%;
+	margin-bottom: 0.2%;
+	max-width: 100%;
+}
+
+.Barre de recherche
+{
+	height: 40px;
+	position: relative;
+	display: flex;
+}
+
+.Recherche
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	max-width: 100%;
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	padding-left: 3%;
+	height: 40px;
+	outline: none;
+	color: black;
+}
+
+.BtnRecherche
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	height: 40px;
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	border-radius: 0 15px 15px 0;
+	color: white;
+	background: #0065FC;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.Loupe
+{
+    display: none;
+}
+
+span.iconegps
+{
+	padding: 10px 13px 11px 25px;
+	background: #F2F2F2;
+	font-size: 1.0em;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 15px;
+}
+
+.lien1
+{
+    margin-right: 50px;   
+}
