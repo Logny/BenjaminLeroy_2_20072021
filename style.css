@@ -321,7 +321,213 @@ p.afficher
 	color: #F2F2F2;
 }
 
-.afficher
+.titrehotel
 {
-	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.prix
+{
+	font-size: 15px;
+	margin: 0px;
+}
+
+.prixpopulaire
+{
+	font-size: 15px;
+	margin: 0px;
+}
+
+.étoile
+{
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.étoilegroupe
+{
+	padding-bottom: 5px;
+}
+
+aside
+{
+	background-color: #F2F2F2 ;
+	border: #F2F2F2 solid;
+	border-radius: 15px 15px 15px 15px;
+	width: 27%;
+	padding: 2% 0% 0% 2% ;
+}
+
+.iconepopulaire h1
+{
+	font-size: 17px;
+}
+
+.iconepopulaire
+{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.populaireicone
+{
+	margin-top: 17px;
+	margin-right: 15px;
+	align-items: center;
+}
+
+.populaireimage
+{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 15px 0px 0px 15px;
+	padding: 3px 0px 3px 3px;
+}
+
+.populairecarte
+{
+	background-color: white;
+	margin-top: 3%;
+	margin-bottom: 30px;
+	width: 90%;
+	border-radius: 15px 15px 15px 15px;
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: 0px;
+}
+
+.étoilepopulaire
+{
+	margin: 10px 0px 0px 10px;	
+}
+
+a
+{
+	height: 106px;
+}
+
+.groupe2
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+	
+}
+
+.titreactivites
+{
+	color: black;
+	margin-top: 45px;
+}
+
+.nomactivite
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-bottom: 5px;
+}
+
+.articleactivite
+{
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 250px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: #F2F2F2 5px 5px 5px 3px;
+}
+
+.articleactiviteg
+{
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: #F2F2F2 5px 5px 5px 3px;
+	height: 300px;
+	width: 250px;
+	margin-right: 100px;
+}
+
+.sousgroupe1
+{
+	display: flex;
+}
+
+
+.imageVieuxport
+{
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.imagepomegue
+{
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.imagefrioule
+{
+	width: 100%;
+	height: 95px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.imageCalanque
+{
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.imageNDG
+{
+	width: 100%;
+	height: 115px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.imagelongchamps
+{
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+footer
+{
+	display: flex;
+	background-color:#F2F2F2;
+	padding-top: 25px;
+	padding-left: 40px;
+	margin-top: 3%;
+}
+
+footer h1
+{
+	font-size: 15px;
+}
+
+footer p
+{
+	font-size: 15px;
+}
+
+.apropos, .noshebergements, .assistance
+{
+	width: 30%;
 }
