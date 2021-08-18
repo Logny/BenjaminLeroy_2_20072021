@@ -359,6 +359,7 @@ aside
 	border-radius: 15px 15px 15px 15px;
 	width: 27%;
 	padding: 2% 0% 0% 2% ;
+	
 }
 
 .iconepopulaire h1
@@ -530,4 +531,179 @@ footer p
 .apropos, .noshebergements, .assistance
 {
 	width: 30%;
+}
+
+/*Responsive Tablette*/
+
+@media  screen
+
+and (min-device-width : 480px) 
+and (orientation:portrait) {
+    
+    #corps, body
+    {
+        margin: 0px;
+    }
+
+
+	.logo
+	{
+        width: 15%;
+		margin-left: 3%;
+    }
+
+	nav ul
+	{
+        margin-right: 20px;
+    }
+
+	.block1
+	{
+		margin-bottom: 3%;
+		margin-left: 3%;
+	}
+
+
+	.BtnRecherche
+	{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: white;
+        background: #0065FC;
+        border-radius: 11px;
+        border: none;
+        padding: 15px 15px 15px 15px;
+    }
+    
+
+	.Loupe
+	{
+		display: none;
+	}
+
+	.barredefiltre
+	{
+		flex-direction: column;
+		align-items: unset;
+	   
+	}
+
+	.filtreliste
+	{
+        padding: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+	.nomfiltre
+	{
+        width: 30%;
+    }
+
+	.partie-centrale
+	{
+        flex-direction: column;
+    }
+
+
+	.Hebergement, aside
+	{
+        width: 100%;
+        margin-right: 0%;
+        border: none;
+        border-radius: unset;
+        padding-left: 0%;
+    }
+
+	.Hebergement
+	{
+        margin-bottom: 3%;
+    }
+
+	.iconepopulaire h1
+	{
+        margin-left: 6%;
+    }
+
+	.tab_populaire
+	{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+	.groupe2
+	{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+
+	.titreactivites
+	{
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+
+
+
+	.articleactivite
+	{
+        width: 300px;
+    }
+
+	.imageNDG,.imagepomegue
+	{
+        height: 100px;
+    }
+
+	.imageVieuxport,.imageCalanque
+	{
+        height: 255px;
+    }
+
+	.articleactiviteg
+	{
+        width: 300px;
+        margin-bottom: 3%;
+        height: 285px;
+        margin-right: 80px;
+    }
+}	
+
+
+
+@media  screen
+
+and  (min-device-width : 480px) and (max-device-width:1024px)
+and (orientation:landscape) {
+
+    
+
+    body{
+        margin: 0px 0px 0px 0px;
+    }
+
+	.groupe2
+	{
+        justify-content: center;
+	}
+	
+	.populaireimage
+	{
+        width: 80px;
+    }
+}
+
+
+@media screen and (min-device-width: 1480px)
+{
+    .Hebergement-image{
+        width: 300px;
+    }
 }
