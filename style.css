@@ -703,7 +703,165 @@ and (orientation:landscape) {
 
 @media screen and (min-device-width: 1480px)
 {
-    .Hebergement-image{
+    .Hebergement-image
+	{
         width: 300px;
     }
 }
+
+/*Responsive Phone*/
+
+@media (max-width: 480px){
+
+	#corps, body
+    {
+        margin: 0px;
+    }
+
+	.haut-page
+	{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+	.logo
+	{
+        width: 26%;
+		margin-left: 15px;
+    }
+
+	nav ul 
+    {
+       display: unset;
+    }
+
+	nav a
+	{
+        padding: 0px;
+    }
+
+	nav a:hover 
+	{
+		border-top: none; 
+	}
+
+	.sinscrire 
+	{
+        bottom: 77px;
+        left: 70%;
+        margin: 0px;
+        position: relative;
+		margin-left: -60px;
+    } 
+
+	.lien1:hover, .lien2:hover
+	{
+        border-bottom:#0065FC solid 2px ;
+        padding-bottom: 10px;
+    }
+
+	.lien1, .lien2
+	{
+        width: 50%;
+        border-bottom:#F2F2F2 2px solid ;
+        margin-right: 0px;
+        padding-bottom: 10px;
+		
+    }
+
+	.menu-haut
+	{  
+        margin-right: 0px;
+        justify-content: space-evenly;
+	}
+
+	.block1 .logo .h1
+	{
+		font-size: 24px;
+		margin-bottom: 3%;
+	    margin-left: 5%;
+		text-align: start;
+	}
+
+	.BtnRecherche 
+	{  
+		display: none;
+	}
+
+	.Loupe
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 10px;
+		color: white;
+		background: #0065FC;
+		border-radius: 11px;
+		border: none;
+		padding: 15px 15px 15px 15px;
+		margin-left: 250px;
+		margin-top: -40px;
+	}
+
+	.Recherche
+	{
+		width: 55%;
+	}
+
+	.barredefiltre
+	{
+		flex-direction: column;
+		align-items: unset;
+	}
+
+	.filtreliste
+	{
+        padding: 0px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+	.mediafiltre1
+	{
+        margin-bottom: 3%;
+        width: 55%;
+        padding-right: 23px;
+    }
+
+	.nomfiltre
+	{
+        font-size: 12px;
+    }
+
+	.filtre
+	{
+		margin-left: 20px;
+		margin-bottom: 0px;
+		margin-top: 30px;
+	}
+
+	.iconegps
+	{
+		margin-left: 20px;
+	}
+
+	.Sous-titre
+	{
+		text-align: center;
+	}
+
+	.h1
+	{
+		text-align: center;
+	}
+
+	.information
+	{
+		text-align: start;
+		margin-left: 20px;
+	}
+
+	.block1
+	{
+		text-align: center;
+	}
