@@ -149,6 +149,7 @@ li
 	list-style: none;
 }
 
+
 .nomfiltre
 {
 	display: flex;
@@ -243,17 +244,19 @@ span.iconeinfo
 .étoilebleu, .étoilegrise
 {
 	font-size: 1em;
+	
 }
 
 .Hebergement
 {
 	background-color: #F2F2F2;
-	width: 50%;
+	width: 60%;
 	border: #F2F2F2 solid 1px;
 	border-radius: 15px 15px 15px 15px;
 	margin-right: 3%;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .Hebergement-block
@@ -261,7 +264,11 @@ span.iconeinfo
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	width: auto;
+	
 }
+
+
 
 .Hebergement-image
 {
@@ -277,6 +284,7 @@ span.iconeinfo
 	padding: 3px 3px 0px 3px;
 	margin-top: 3%;
 	border-radius: 15px 15px 15px 15px;
+	
 }
 
 .Hebergement h1
@@ -326,18 +334,22 @@ p.afficher
 	font-size: 15px;
 	font-weight: bold;
 	margin: 0px;
+	margin-top: 5%;
 }
 
 .prix
 {
 	font-size: 15px;
 	margin: 0px;
+	margin-top: 5%;
 }
 
 .prixpopulaire
 {
 	font-size: 15px;
 	margin: 0px;
+	margin-bottom: 15%;
+	margin-top: 5%;
 }
 
 .étoile
@@ -350,6 +362,8 @@ p.afficher
 .étoilegroupe
 {
 	padding-bottom: 5px;
+	margin-bottom: 3%;
+	margin-top: 3%
 }
 
 aside
@@ -359,6 +373,13 @@ aside
 	border-radius: 15px 15px 15px 15px;
 	width: 27%;
 	padding: 2% 0% 0% 2% ;
+	position: absolute;
+	right: 0px;
+	bottom: 60px;
+	margin-right: 170px;
+	margin-bottom: -80px;
+	
+	
 	
 }
 
@@ -377,14 +398,14 @@ aside
 .populaireicone
 {
 	margin-top: 17px;
-	margin-right: 15px;
+	margin-right: 13px;
 	align-items: center;
 }
 
 .populaireimage
 {
 	width: 100px;
-	height: 100px;
+	height: 135px;
 	object-fit: cover;
 	border-radius: 15px 0px 0px 15px;
 	padding: 3px 0px 3px 3px;
@@ -404,7 +425,9 @@ aside
 
 .étoilepopulaire
 {
-	margin: 10px 0px 0px 10px;	
+	margin: 10px 0px 0px 10px;
+	margin-top: 5%;	
+	margin-bottom: 3%;
 }
 
 a
@@ -415,9 +438,10 @@ a
 .groupe2
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-evenly;
 	flex-wrap: wrap;
 	position: relative;
+	
 	
 }
 
@@ -439,7 +463,7 @@ a
 {
 	margin-right: 0px;
 	margin-bottom: 0px;
-	width: 250px;
+	width: 450px;
 	background-color: white;
 	border-radius: 15px;
 	box-shadow: #F2F2F2 5px 5px 5px 3px;
@@ -451,13 +475,14 @@ a
 	border-radius: 15px;
 	box-shadow: #F2F2F2 5px 5px 5px 3px;
 	height: 300px;
-	width: 250px;
-	margin-right: 100px;
+	width: 450px;
+	margin-right: 25px;
 }
 
 .sousgroupe1
 {
 	display: flex;
+		
 }
 
 
@@ -711,11 +736,11 @@ and (orientation:landscape) {
 
 /*Responsive Phone*/
 
-@media (max-width: 480px){
+@media screen and (max-width: 770px){
 
 	#corps, body
     {
-        margin: 0px;
+        margin-left: 10px;
     }
 
 	.haut-page
@@ -865,3 +890,143 @@ and (orientation:landscape) {
 	{
 		text-align: center;
 	}
+
+	.aside
+	{
+		justify-content: center;
+		display: flex;
+			
+	}
+
+	.footer
+	{
+		flex-direction: column;
+	}
+
+	.activites
+	{
+		margin-left: auto;
+		flex-direction: column;	
+	}
+}
+
+@media screen and  (min-device-width : 100px) and (max-width: 330px){
+
+    
+
+	.partie-centrale
+	{
+		margin-left: 70px;
+	}
+
+	.sousgroupe1
+	{
+		margin-left: 30px;
+	}
+
+
+	.activites
+	{
+		margin-left: auto;
+		flex-direction: column;
+		margin-right: auto;
+		
+	}
+
+	.sousgroupe1
+	{
+		margin-left: auto;
+		margin-right: auto;
+		flex-direction: column;
+	}
+
+	.imageVieuxport,.imageCalanque
+	{
+        height: 115px;
+    }
+    
+	.articleactiviteg
+	{
+		height: 150px;
+	}
+	
+	.imagefrioule
+	{
+		height: 115px;
+	}
+
+	.articleactiviteg
+	{
+		margin-bottom: 15px;
+		width: 300px;
+	}
+
+	.articleactivite
+	{
+		width: 300px;
+	}
+    
+	.imagelongchamps
+	{
+		height: 115px;
+	}
+    
+	.footer
+	{
+		
+		flex-direction:row;
+		
+	}
+
+	
+
+	.Hebergement
+	{
+		width: auto;
+		margin-left: -100px;
+		margin-right: auto;
+	}
+
+    .Hebergement-bulle
+	{
+		width: 300px;
+	}
+
+	.Hebergement-image
+	{
+		height: 115px;
+		width: 300px;
+	}
+    
+	.information
+	{
+		margin-left: -10px;
+	}
+    
+    .barredefiltre
+	{
+		margin-left: -20px;
+	}
+    
+	.Barre.de.Recherche
+	{
+		margin-left: -10px;
+	}
+
+	.block1
+	{
+		margin-left: -10px;
+	}
+
+    .haut-page
+	{
+		margin-left: -10px;
+	}
+	
+
+
+
+
+
+
+}
