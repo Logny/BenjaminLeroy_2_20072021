@@ -377,7 +377,9 @@ aside
 	right: 0px;
 	bottom: 60px;
 	margin-right: 170px;
-	margin-bottom: -80px;
+	margin-bottom: -170px;
+	top: 330px;
+	
 	
 	
 	
@@ -736,7 +738,7 @@ and (orientation:landscape) {
 
 /*Responsive Phone*/
 
-@media screen and (max-width: 770px){
+@media screen  and  (min-device-width : 331px) and (max-width: 770px){
 
 	#corps, body
     {
@@ -905,9 +907,36 @@ and (orientation:landscape) {
 
 	.activites
 	{
-		margin-left: auto;
+		
 		flex-direction: column;	
 	}
+
+	.imageCalanque
+	{
+        height: ;
+	}
+
+	.imageVieuxport
+	{
+
+	}
+
+	.articleactiviteg
+	{
+		width: 275px;
+	}
+
+	.articleactivite
+	{
+		width: 275px;
+		margin-right: 162px;
+	}
+
+	.sousgroupe1
+	{
+		flex-direction: column;
+	}
+	
 }
 
 @media screen and  (min-device-width : 100px) and (max-width: 330px){
@@ -1023,6 +1052,12 @@ and (orientation:landscape) {
 		margin-left: -10px;
 	}
 	
+	.aside
+	{
+		height: 550px;
+		width: 550px;
+		position: relative;
+	}
 
 
 
