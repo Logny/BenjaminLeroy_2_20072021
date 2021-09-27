@@ -618,9 +618,7 @@ h2{
     .bloc_house a:nth-child(6){
         width: 100%;
     }
-    .bloc_house a:nth-child(6) img{
-        width: 190% !important;
-    }
+    
     .text_house, .text_popular{
         display: block;
         width: 100%;
